@@ -1,0 +1,59 @@
+{
+  "institutions": [
+    { "defense": ["Army","Department of Defense","Security","Florence Parly","Ryan McCarthy"] },
+    { "europe": ["Ursula Von der Leyen","Charles Michel","David Sassoli","Jeppe Tranholm-Mikkelsen","euro","Commission européenne","Conseil européen","Parlement européen","Espace Schengen"] },
+    { "law": ["justice","criminal justice","lawyer","military justice","rights","social justice"] },
+    { "associations": ["Cure Violence","Oxfam","Handicap International","Mercy Corps","Acumen","Skoll Fondation","Médecins sans frontières"] },
+    { "religions": ["christianity ","Islam ","Atheist","Agnostic","Hinduism","Buddhism ","Spiritism ","Judaism ","Shinto "] }
+  ],
+  "entertainment": [
+    { "actors": ["Johnny Depp","Ben Affleck","Kevin Spacey","Robert De Niro"," Brad Pitt","Tom Hanks","Leonardo DiCaprio","Scarlett Johansson","Cameron Diaz","Jennifer Aniston","Sally Field"," Amy Adams"," Angelina Jolie","Jennifer Lawrence","Gérard Depardieu","Jean-Paul Belmondo","Jean Dujardin","Daniel Auteuil","Vincent Cassel","Catherine Deneuve","Marion Cotillard","Leïla Bekhti","Géraldine Nakache" ] },
+    { "directors": ["Steven Spielberg","Martin Scorsese","James Cameron","Christopher Nolan","David Fincher","Quentin Tarantino","Clint Eastwood","Ridley Scott","Woody Allen","Tim Burton","Luc Besson","Jacques Audiard"] },
+    { "films": ["Le Parrain","Pulp Fiction","Titanic","Forrest Gumps","La liste de Scheindler","Star Wars","Avengers","Indiana Jones","Harry Potter","Le Seigneur des anneaux","Blade Runner","Le temps d’un automne","Gladiator","Fifty shades of grey","Qu’est ce qu’on a fait au bon dieu","Le Prénom","La vie d’adèle","Camping","OSS 117","Amélie Poulain"] },
+    { "distributors": ["Walt Disney","Sony","Universal","20th Century Fox","Dreaworks","Lionsgate"] },
+    { "internet_stars": ["Cyprien","Norman","Le rire jaune","Gloden Moustache","Natoo","Seb la frite","EnjoyPhenix","PewDiePie","Dude Perfect","Smosh","Ryan Higa"] },
+    { "comedians": ["Dave Chappelle","Jerry Seinfeld","Gad Elmaleh","Blanche Gardin","Kev Adams","Florence Foresti","Jamel Debbouze","Dany Boon","Franck Dubosc","Elie Semoun"] },
+    { "festivals": ["Oktoberfest","Rio Carnaval","Coachella","Eurockéennes de Belfort","Bonnaroo"] },
+    { "theater": ["La comédie française","The Royal Opera House","The Burgtheater","The Teatro La Fenice","The Bolshoi","The Metropolitan Opera","Sydney Opera House","Tartuffe","L’avare","Le mariage de Figaro","Cyrano de bergerac","Hamlet","Roméo et Juliette"] },
+    { "videogames": [ "Twitch","minecraft","League of Legends","TFT","Zerator"] },
+    { "television": [ "Disney Channel","BBC","Canal+","Euronews","MTV", "Ellen DeFeneres","Graham Norton","Oprah Winfrey","Jummy Fallon","Nagui","Nikos Aliagas","Michel Drucker","Laurent Riquier","Stéphane Bern", "Game of Thrones","Breaking Bad","Stranger Things","Black Mirror","The Big Bang Theory","Westworld","Narcos","La casa de papel","Grey’s Anatomy","desperate housewives", "The Bachelor","American Idol","the Voice","Top Chef","Dancing with the stars","koh-lanta","Pekin express","LEs Anges","Questions pour un champion","Qui veut gagner des millions"] }
+  ],
+  "music": [
+    { "rock": ["The Beatles","The Rolling Stones","Pink Floyd","AC/DC","Bob Dylan","Queen","Maroon 5","Coldplay"] },
+    { "pop": ["Beyoncé","Taylor Swift","Lady Gaga","Justin Bieber","Rihanna","Madonna","Britney Spears","Ariana Grande","Selena Gomez","Mariah Carey","Bruno Mars","Adele","Miley Cirus","Ed Sheeran","Jay-Z","Shakira","Shawn Mendes","Charlie Puth","Adam Levine"] },
+    { "rap": ["Eminem","Cardi B ","Drake","Nekfeu","Orelsan","Lomepal","MC Solaar"] },
+    { "jazz": ["Miles Davis","Louis Armstrong ","Duke Ellington","Emma Fitzgerald","Charlie Parker"]},
+    { "radio": ["NRJ","RTL","RLC","Fun","Skyrock","RMC","Europe 1","France Inter"] }
+  ],
+  "sports": [
+    { "football": ["Lionel Messi","Cristiano Ronaldo","Zinédine Zidane","Zlatan Ibrahimovic","David Beckham","Mbappé","Neymar","Manchester United","Liverpool","Arsenal","Real Madrid","FC Barcelone","Inter Milan","PSG","OGC Nice","Dortmund"] },
+    { "rugby": ["All Blacks","Englad Rugby","wallabies","WRU","Equipe de France","Dan Carter","Jonah Lomu","Richie McCaw","Brian O’Driscoll"] },
+    { "cycling": ["Lance Amstrong","Tour de France","Christopher Froome","Romain Bardet","Egan Bernal","Bradley Wiggins"] },
+    { "athletics": ["Usain Bolt","Running","Jumping","Throwing event","Combined events"]},
+    { "tennis": ["Open d’Australie","Wimbledon","Roland Garros","US Open","Federer","Nadal","Novak Djokovic","Gaël Monfils","Richard Gasquet","Serena Williams","Maria Sharapova","Martina Navratilova","Steffi Graff"] },
+    { "basketball": ["NBA","LeBron James","Michael Jordan","Kobe Bryant","Kim Tillie","Kevin Tillie","Tony Parker","Lakers","Celtics","Chicago Bulls","Rockets de Houston"] },
+    { "press": ["l’équipe","sport 21"] },
+    { "olympic_games": ["Paris 2021","winter games","summer games"] }
+  ],
+  "current affairs": [
+    { "financial_press": ["L’Economiste","New York Financial Press","Solomon"] },
+    { "political_press": ["American Politics Science Review","European Journal of International Relations","Foreign Policy","New Political Economy","World Politics"]},
+    { "cultural_press": ["Art Press","Beaux Arts Magazine ","Univers des arts"] },
+    { "scientific_press": ["World Scientific","Science et vie junior","europa Bio","The national academies Press"] },
+    { "people_press": ["Voici","Purepeople","Closer","Elle"] }
+  ],
+  "lifestyle": [
+    { "gastronomy": ["French gastronomy","Mirazur","Noma","Asador Etxebarri","best chef award","Virgilio Martinez","paul bocuse","european gastronomy","american food","asiatic food"] },
+    { "travel": ["fly","company","travelling","hitchhiking","America","Africa","Europe","Asia","Oceania"] },
+    { "fashion": ["fashion week","LMVH","Louis Vuitton","Channel","Dior","H&M","Pull&Bear","Primark"]},
+    { "health": ["nutrition","diet","medicine","OMS"]}
+  ],
+  "culture": [
+    { "museums": ["Louvre Museum","British Museum","Metropolitan Museum of New York","Vatican Museum","National Gallery","Prado Museum","Orsay Museum","Museum of Modern  Art","Smithsonian Institution","Chapelle Sixtine","Guggenheim"] },
+    { "reading": ["Pride and Prejudice","To kill a Mockingbird","The great Gatsby","Into the wild","Persuasion","Moby-Dick","Frankenstein","Nineteen Eighty-Four","The Adventures of Huckleberry Finn"] },
+    { "design": ["architecture","house architecture","modern","vintage","recycling"] },
+    { "photography": ["landscape","black and white picture","food photography"]},
+    { "drawing": ["Vincent van Gogh","Monet","Picasso","Leonard de Vinvi","Dali","Michel-Ange","Renoir","Matisse","Gustave Klimt","Frida Kahlo","Manet","Jackson Pollock","street art","Banksy"]},
+    { "science": ["space travel","Mercury","Apollo Program","Pioneer","galaxy"]}
+  ]
+}

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/blueBackground"
+    android:layout_height="match_parent"
+    android:id="@+id/SignUpActivity"
+    tools:context=".activities.SignUpActivity">
+
+
+    <ImageView
+        android:id="@+id/happythoughts"
+        android:layout_width="333dp"
+        android:layout_height="231dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:contentDescription="@string/ht_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/happythoughtscroissant" />
+
+    <View
+        android:id="@+id/view_1"
+        android:layout_width="280dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonLogInGoogle" />
+
+    <Button
+        android:id="@+id/buttonSignUp_SignUp"
+        android:layout_width="205dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/button_background"
+        android:fontFamily="@font/croissant_one"
+        android:onClick="onSignUp"
+        android:text="@string/sign_up"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintTop_toBottomOf="@+id/inputName"
+        tools:visibility="visible" />
+
+    <EditText
+        android:id="@+id/inputPassword"
+        android:layout_width="204dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints="@string/password"
+        android:background="@drawable/textfield_background"
+        android:fontFamily="@font/croissant_one"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputEmail" />
+
+    <EditText
+        android:id="@+id/inputName"
+        android:layout_width="204dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints="@string/name"
+        android:background="@drawable/textfield_background"
+        android:fontFamily="@font/croissant_one"
+        android:hint="@string/name"
+        android:inputType="text"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputPassword" />
+
+    <EditText
+        android:id="@+id/inputEmail"
+        android:layout_width="204dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="12dp"
+        android:autofillHints="@string/prompt_email"
+        android:background="@drawable/textfield_background"
+        android:ems="10"
+        android:fontFamily="@font/croissant_one"
+        android:hint="@string/email"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textColor="@color/greyBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textSignUpMessage" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="226dp"
+        android:layout_height="204dp"
+        android:layout_marginTop="48dp"
+        android:contentDescription="@string/logo_description"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sun" />
+
+    <TextView
+        android:id="@+id/textSignUpMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="168dp"
+        android:fontFamily="@font/croissant_one"
+        android:text="@string/signup_message"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/croissant_one"
+        android:onClick="onClickBack"
+        android:text="@string/alreadyMemberMessage"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonLogInGoogle" />
+
+    <ImageButton
+        android:id="@+id/imageButtonTwitter"
+        android:layout_width="42dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="8dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/twitter_logo"
+        android:maxWidth="100dp"
+        android:maxHeight="100dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toStartOf="@+id/buttonLogInTwitter"
+        app:layout_constraintHorizontal_bias="0.988"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSignUp_SignUp"
+        app:srcCompat="@drawable/twitter" />
+
+    <ImageButton
+        android:id="@+id/imageButtonGoogle"
+        android:layout_width="25dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginLeft="92dp"
+        android:layout_marginTop="16dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/google_logo"
+        android:maxWidth="100dp"
+        android:maxHeight="100dp"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonTwitter"
+        app:srcCompat="@drawable/google" />
+
+    <Button
+        android:id="@+id/buttonLogInGoogle"
+        android:layout_width="201dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@null"
+        android:fontFamily="@font/croissant_one"
+        android:gravity="start"
+        android:text="@string/sign_up_with_google"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:visibility="visible"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonGoogle"
+        app:layout_constraintTop_toBottomOf="@+id/buttonLogInTwitter" />
+
+    <Button
+        android:id="@+id/buttonLogInTwitter"
+        android:layout_width="201dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginRight="84dp"
+        android:background="@null"
+        android:fontFamily="@font/croissant_one"
+        android:gravity="start"
+        android:text="@string/sign_up_with_twitter"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSignUp_SignUp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

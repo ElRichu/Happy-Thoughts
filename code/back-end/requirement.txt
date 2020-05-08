@@ -1,0 +1,6 @@
+nltk
+tweepy
+MeaningCloud-python
+pandas
+django
+djangorestframework

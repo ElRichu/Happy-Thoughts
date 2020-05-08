@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@android:color/white"
+android:id="@+id/HomePageActivity"
+tools:context=".activities.HomepageActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="83dp"
+        android:layout_height="741dp"
+        android:background="@drawable/layout_homepage_bar"
+        android:gravity="center|top"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05">
+
+        <ImageButton
+            android:id="@+id/buttonHomepage"
+            android:layout_width="113dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="20dp"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/logo_description"
+            android:onClick="onNoFilter"
+            android:maxWidth="100dp"
+            android:maxHeight="100dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/sun" />
+
+        <ImageButton
+            android:id="@+id/buttonCategoryComedy"
+            android:layout_width="44dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="0dp"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/logo_category_comedy"
+            android:maxWidth="100dp"
+            android:maxHeight="100dp"
+            android:scaleType="fitXY"
+            android:onClick="onEntertainment"
+            app:srcCompat="@drawable/entertainment_icon_white" />
+
+        <ImageButton
+            android:id="@+id/buttonCategoryNews"
+            android:layout_width="47dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/logo_category_news"
+            android:maxWidth="100dp"
+            android:maxHeight="100dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/news_icon_white" />
+
+        <ImageButton
+            android:id="@+id/buttonCategoryAnimals"
+            android:layout_width="49dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="20dp"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/logo_category_animals"
+            android:maxWidth="100dp"
+            android:maxHeight="100dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/animals_icon_white" />
+
+        <ImageButton
+            android:id="@+id/buttonCategoryEnvironment"
+            android:layout_width="48dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="20dp"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/logo_category_environment"
+            android:maxWidth="100dp"
+            android:maxHeight="100dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/environment_icon_white" />
+
+        <ImageButton
+            android:id="@+id/buttonCategorySports"
+            android:layout_width="52dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/logo_category_sports"
+            android:maxWidth="100dp"
+            android:maxHeight="100dp"
+            android:scaleType="fitXY"
+            android:onClick="onSportFilter"
+            app:srcCompat="@drawable/sports_icon_white" />
+
+        <ImageButton
+            android:id="@+id/buttonCategoryAlarm"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:layout_marginTop="20dp"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/logo_category_alarm"
+            android:maxWidth="100dp"
+            android:maxHeight="100dp"
+            android:onClick="goToAlarm"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/alarm_icon_white" />
+
+        <ImageButton
+            android:id="@+id/buttonCategoryOthers"
+            android:layout_width="44dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:maxWidth="100dp"
+            android:maxHeight="100dp"
+            android:scaleType="fitXY"
+            android:onClick="onOtherFilter"
+            app:srcCompat="@drawable/others_icon_white" />
+
+        <ImageButton
+            android:id="@+id/buttonCategorySettings"
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            android:layout_marginTop="15dp"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/logo_category_settings"
+            android:maxWidth="100dp"
+            android:maxHeight="100dp"
+            android:onClick="goToSettings"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/settings_icon_white" />
+
+    </LinearLayout>
+
+    <!-- BEGINNING OF DRAFT FOR TWEET DISPLAY-->
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="277dp"
+        android:layout_height="666dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="32dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- here will be all of the tweets to be generated via java probably !  -->
+
+        <TextView
+            android:id="@+id/nameUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/croissant_one"
+            android:text="TextView"
+            android:textSize="21sp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewTweets"
+            android:layout_width="275dp"
+            android:layout_height="600dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/transparent"
+            android:elevation="5dp"
+            android:scrollbars="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nameUser" />
+
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/scrollBar"
+        android:layout_width="20dp"
+        android:layout_height="729dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical" />
+    </HorizontalScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

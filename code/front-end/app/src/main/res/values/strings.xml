@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">smart</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="next_button">Next</string>
+    <string name="fran_ais">Français</string>
+    <string name="english">English</string>
+    <string name="message_languages">Which Languages \ndo you speak? </string>
+    <string name="logo_description"> Shining and smiling sun logo </string>
+    <string name="sign_up">Sign up</string>
+    <string name="login">Login</string>
+    <string name="or">OR</string>
+    <string name="google_logo">google logo</string>
+    <string name="twitter_logo">twitter logo</string>
+    <string name="log_in_with_google">Log in with Google</string>
+    <string name="sign_up_with_google">Sign up with Google</string>
+    <string name="password">password</string>
+    <string name="email">email</string>
+    <string name="ht_name">happy thoughts name round</string>
+    <string name="log_in_with_twitter">Log in with Twitter</string>
+    <string name="sign_up_with_twitter">Sign up with Twitter</string>
+    <string name="logo_category_comedy">logo category comedy</string>
+    <string name="logo_category_entertainment">logo entertainment comedy</string>
+    <string name="logo_category_sports">logo category sports</string>
+    <string name="logo_category_news">logo category news</string>
+    <string name="logo_category_environment">logo category environment</string>
+    <string name="logo_category_animals">logo category animals</string>
+    <string name="logo_category_alarm">logo category alarm</string>
+    <string name="logo_category_settings">logo category settings</string>
+    <string name="signup_message">Join the community, be happy !</string>
+    <string name="message_questions">What are you interested in ?</string>
+    <string name="search_message">Search for interests</string>
+    <string name="alreadyMemberMessage"> Already a member? Click here! </string>
+    <string name="username"> Username </string>
+    <string name="security">Security </string>
+    <string name="credentials">Reset password</string>
+    <string name="changeQuestionnary">Modify your preferences</string>
+    <string name="help">Help</string>
+    <string name="back">Back</string>
+    <string name="help_symbol_image">help symbol image</string>
+    <string name="account_symbol_description">account symbol description</string>
+    <string name="lock_symbol_description">lock symbol description</string>
+    <string name="key_symbol_image">key symbol image</string>
+    <string name="preferences_symbol_image">preferences symbol image</string>
+    <string name="log_out_of_current_account">Log out of current account</string>
+    <string name="my_account">My account</string>
+    <string name="arrow">arrow</string>
+    <string name="resetPwdMessage">Are you sure you want to reset your password? You\'ll receive an email to do so after clicking \'Yes\'. </string>
+    <string name="titleChangePwd"> Reset Password </string>
+    <string name="yes"> Yes </string>
+    <string name="no"> No </string>
+    <string name="forgottenPwd"> Forgot your password? Click here.</string>
+    <string name="userRef"> \@user </string>
+    <string name="tweet"> What a marvelously happy thing this is. </string>
+    <string name="userLogo"> Verified user logo </string>
+    <string name="name"> name </string>
+    <string name="phone"> phone </string>
+    <string name="helptext"> Happy Thoughts is an application to help you see the bright side of life. To be able to show you the most appropriate tweets everyday, we use the information gathered from our questionnaire (which you can modify at any given time by simply clicking on the appropriate button in your settings page). From there, you\'ll see tweets appear in your homepage. If you only want to see tweets of a certain category, for example comedy, then click on the corresponding icon in the sidebar ! </string>
+    <!--string name="twitter_consumer_key" translatable="false"> 999402738290233344-GB6h7ahayXolXu6MYTMVlc4VKPAbOPN </string>
+    <string name="twitter_consumer_secret" translatable="false"> c0wB3SwFjiTpTWnR6fyudBX9Sel7SxUwxKeJ4FLJpaHcV </string-->
+    <string name="twitter_consumer_key" translatable="false"> 74kR1Uv1LGw3qllwqyIrIW2WH </string>
+    <string name="twitter_consumer_secret" translatable="false"> GyVxV3O4Wks9akUFxRQAmXh1nVvtTnvvLi1nsMdkLt4EjqxIrO </string>
+    <string name="activate_alarm">Activate alarm</string>
+    <string name="stop">Stop</string>
+    <string name="image">image</string>
+    <string name="tweets_server_address">https://a0d941ad.ngrok.io/tweets-sub-category/</string>
+</resources>

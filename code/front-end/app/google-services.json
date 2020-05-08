@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "479183562950",
+    "firebase_url": "https://luwddo.firebaseio.com",
+    "project_id": "luwddo",
+    "storage_bucket": "luwddo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479183562950:android:1f38f0953a1beb796d0fc7",
+        "android_client_info": {
+          "package_name": "h4213.smart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479183562950-uqn658l301a7e89ouu8v2mmaktroi6e9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "h4213.smart",
+            "certificate_hash": "698fa76e7491664fc99b54f63a1d028df42f3fed"
+          }
+        },
+        {
+          "client_id": "479183562950-lguuchhh37ejq7kpouhi0gbob97rq0ap.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "h4213.smart",
+            "certificate_hash": "7e455bec46759246588aa96065cfa992fbf97ea8"
+          }
+        },
+        {
+          "client_id": "479183562950-d45jeum69g615fi27rr39eah4ht9c6vt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC47dQzgfH7Y5_i4FNTeZnfqgjcE4F1-_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "479183562950-d45jeum69g615fi27rr39eah4ht9c6vt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

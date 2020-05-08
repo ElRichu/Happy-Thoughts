@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/blueBackground"
+android:visibility="visible"
+tools:context=".activities.LanguagesActivity">
+
+<ImageView
+    android:id="@+id/imageView"
+    android:layout_width="121dp"
+    android:layout_height="114dp"
+    android:layout_marginTop="40dp"
+    android:contentDescription="@string/logo_description"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.503"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:srcCompat="@drawable/sun" />
+
+<TextView
+    android:id="@+id/message_languages"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fontFamily="@font/croissant_one"
+    android:text="@string/message_languages"
+    android:textColor="#FFFFFF"
+    android:textSize="22sp"
+    android:textStyle="bold"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.359"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+<TextView
+    android:id="@+id/english_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="68dp"
+    android:layout_marginLeft="68dp"
+    android:layout_marginTop="36dp"
+    android:fontFamily="@font/croissant_one"
+    android:text="@string/english"
+    android:textColor="#FFFFFF"
+    android:textSize="20sp"
+    app:layout_constraintEnd_toStartOf="@+id/switch_en"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/message_languages" />
+
+<TextView
+    android:id="@+id/french_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="68dp"
+    android:layout_marginLeft="68dp"
+    android:layout_marginTop="36dp"
+    android:fontFamily="@font/croissant_one"
+    android:text="@string/fran_ais"
+    android:textColor="#FFFFFF"
+    android:textSize="20sp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/english_view" />
+
+<Switch
+    android:id="@+id/switch_en"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textOff="OFF"
+    android:textOn="ON"
+    android:layout_marginTop="40dp"
+    android:layout_marginEnd="68dp"
+    android:layout_marginRight="68dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/message_languages" />
+
+<Switch
+    android:id="@+id/switch_fr"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textOff="OFF"
+    android:textOn="ON"
+    android:layout_marginTop="44dp"
+    android:layout_marginEnd="68dp"
+    android:layout_marginRight="68dp"
+    android:textColor="#FFFFFF"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="1.0"
+    app:layout_constraintStart_toEndOf="@+id/french_view"
+    app:layout_constraintTop_toBottomOf="@+id/switch_en" />
+
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:layout_marginTop="24dp"
+    android:background="@android:color/white"
+    app:layout_constraintBottom_toTopOf="@+id/switch_fr"
+    app:layout_constraintTop_toBottomOf="@+id/switch_en"
+    app:layout_constraintVertical_bias="0.0"
+    tools:layout_editor_absoluteX="0dp" />
+
+<View
+    android:id="@+id/view4"
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:layout_marginTop="20dp"
+    android:background="@android:color/white"
+    app:layout_constraintTop_toBottomOf="@+id/switch_fr"
+    tools:layout_editor_absoluteX="0dp" />
+
+<Button
+    android:id="@+id/button_next"
+    android:layout_width="171dp"
+    android:layout_height="53dp"
+    android:layout_marginBottom="32dp"
+    android:background="@drawable/button_background"
+    android:fontFamily="@font/croissant_one"
+    android:text="@string/next_button"
+    android:textAllCaps="false"
+    android:textColor="#FFFFFF"
+    android:textSize="18sp"
+    android:textStyle="bold"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    tools:visibility="visible" />
+</androidx.constraintlayout.widget.ConstraintLayout>
